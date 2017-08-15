@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="1" x="32" y="32" width="729" height="457" text="Browser&#xA;http://..." measuredWidth="729" measuredHeight="457">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="3" x="56" y="107" text="Shopping list" measuredWidth="104" measuredHeight="29" state="disabled">
+    <font size="16px" bold="true" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="4" x="513" y="102" text="Our services" measuredWidth="82" measuredHeight="28" state="disabled">
+    <font size="15px" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="5" x="616" y="102" text="Login" measuredWidth="40" measuredHeight="28" state="disabled">
+    <font size="15px" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="6" x="672" y="102" text="Contact us" measuredWidth="72" measuredHeight="28" state="disabled">
+    <font size="15px" underline="false"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="7" x="44" y="135" width="705" height="70" text="This site heips you design your shopping list for the several items you want to buy both online and offline. You can save your shopping list afterwards on your git account for further refence and you can even edit the shopping list in the later stages." measuredWidth="705" measuredHeight="70">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="8" x="320" y="224" text="Login" measuredWidth="65" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="9" x="270" y="263" text="Email address:" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="10" x="270" y="285" width="242" measuredWidth="242" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="11" x="273" y="320" text="Password:" measuredWidth="59" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="12" x="273" y="342" width="242" measuredWidth="242" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="13" x="274" y="384" text="Login" measuredWidth="50" measuredHeight="25">
+    <font/>
+  </widgets>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>

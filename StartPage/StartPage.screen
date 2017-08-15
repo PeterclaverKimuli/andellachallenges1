@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<model:Screen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:model="http://wireframesketcher.com/1.0/model.ecore">
+  <widgets xsi:type="model:Browser" id="3" y="38" width="753" height="571" text="Browser&#xA;http://..." measuredWidth="753" measuredHeight="571">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="4" x="26" y="102" text="Shopping list" measuredWidth="252" measuredHeight="67">
+    <font size="43px"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="8" x="497" y="126" text="Our services" measuredWidth="82" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="9" x="600" y="126" text="Login" measuredWidth="40" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Link" id="10" x="656" y="126" text="Contact us" measuredWidth="72" measuredHeight="28">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="12" x="320" y="320" text="Sign up" measuredWidth="88" measuredHeight="40">
+    <font size="24px"/>
+  </widgets>
+  <widgets xsi:type="model:TextArea" id="14" x="24" y="248" width="705" height="70" text="This site heips you design your shopping list for the several items you want to buy both online and offline. You can save your shopping list afterwards on your git account for further refence and you can even edit the shopping list in the later stages." measuredWidth="705" measuredHeight="70">
+    <font size="15px"/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="15" x="270" y="347" text="Name:" measuredWidth="41" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="16" x="270" y="379" width="242" measuredWidth="242" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="17" x="270" y="403" text="Email address:" measuredWidth="81" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="18" x="270" y="425" width="242" measuredWidth="242" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="19" x="270" y="459" text="Password:" measuredWidth="59" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="20" x="270" y="481" width="242" measuredWidth="242" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Label" id="21" x="270" y="515" text="Confirm password:" measuredWidth="106" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:TextField" id="22" x="270" y="537" width="242" measuredWidth="242" measuredHeight="23">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Button" id="23" x="274" y="576" text="Submit" measuredWidth="58" measuredHeight="25">
+    <font/>
+  </widgets>
+  <widgets xsi:type="model:Image" id="26" x="26" y="160" width="695" height="81" text="IMAGE" measuredWidth="695" measuredHeight="81"/>
+  <hRuler/>
+  <vRuler/>
+  <font size="12px"/>
+</model:Screen>
