@@ -1,0 +1,12 @@
+body{
+	font-size: 22px;
+}
+
+.head-div{
+	top: 0;
+	bottom: 0;
+	height: 50px;
+	background-color: orange;
+	display: flex;
+	flex-direction: row;
+}
