@@ -4,3 +4,8 @@ python:
   - 3.5.1
 
 cache: pip
+
+install:
+  - pip install coveralls
+  - pip install coverage
+  - pip install flask
