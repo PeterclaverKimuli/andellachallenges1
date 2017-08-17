@@ -5,7 +5,6 @@ class Create:
         self.name = ''
         self.save_lists = []
 
-
     def create_list(self, list_name, item_name, quantity, cost_of_each):
         self.name = list_name
         self.price = cost_of_each * quantity
@@ -27,4 +26,3 @@ class Create:
 
     def delete_item(self, item_name):
         del self.list_items[item_name]
-
