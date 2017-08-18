@@ -26,7 +26,7 @@ Then run the application
 python run.py
 To now view the application head over to
 
-http://localhost:5000
+http://127.0.0.1:5000/
 UML
 
 The application also has a UML diagram. For the structure of the app check it out here
