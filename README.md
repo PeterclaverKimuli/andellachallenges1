@@ -13,7 +13,8 @@ A user is able to Register and get an account in the app
 A user is able to Login into the app using their credentials already supplied
 A user is able to create, edit, update and delete shopping lists
 A user is also able to create, edit, update and delete shopping list Items
-Setup
+
+# Setup
 
 To start using this application, first clone it to your local machine by running
 
