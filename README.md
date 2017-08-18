@@ -1,4 +1,40 @@
-This repository comprises my work in developing a web based application called Shopping list! The repository contains several folders and these include; UI, Design, CRUD and Wireframes. Each folder contains a file used to develop the application. 
+This site helps you design your shopping list for the several items you want to buy both online and offline. You can save your shopping list afterwards on your git account for further retence and you can even edit the shopping list in the later stages.
 
-The UI folder contains the HTML and CSS files used to develop the application, the design folder has the UML diagram for the application, the CRUD folder contains the the Python files used to 'Create', 'Read', 'Update' and 'Delete' features of the application and the Wireframes folder contains the files with the sketches of the application's design.
+Features
+
+The application has a couple of features as listed below:-
+
+A user is able to Register and get an account in the app
+A user is able to Login into the app using their credentials already supplied
+A user is able to create, edit, update and delete shopping lists
+A user is also able to create, edit, update and delete shopping list Items
+Setup
+
+To start using this application, first clone it to your local machine by running
+
+git clone https://github.com/PeterclaverKimuli/andellachallenges1.git
+cd andellachallenges1
+Create the virtual environment and activate it
+
+virtualenv env
+source env/bin/activate
+Then install all the required dependencies
+
+pip install -r requirements.txt
+Then run the application
+
+python run.py
+To now view the application head over to
+
+http://localhost:5000
+UML
+
+The application also has a UML diagram. For the structure of the app check it out here
+
+Testing
+
+You can then run the application tests using
+
+cd andellachallenges1
+nosetests tests
 
