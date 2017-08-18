@@ -1,10 +1,52 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+<html>
 
+<head>
+	<title>WireFrame UI</title>
+	<link rel="stylesheet" type="text/css" href="css/shopping.css">
+	<meta charset="utf-8">
+</head>
+
+<header>
+	<ul>
+		<h2 class="page-div">Shopping list</h2>
+		<ul style="float:right;list-style-type:none;">
+			<li><a href="./index.html">Old Shopping List</a></li>
+			<li><a href="#repo">Access your git repository</a></li>
+			<li><a href="#signout">Logout</a></li>
+		</ul>
+	</ul>
+</header>
+
+
+<body>
+	<div class="about">
+		<img src="Images/graphy.jpg" class="shopimage" style="height: 150px; width: 100%; ">
+	</div>
+
+	<div id="para-div">
+		<p>At shopping list your choice really matters. Create your shopping below.</p>
+	</div>
+
+	<div class="body-content">
+		<form id="shop-form">
+
+			<input type="text" name="shopping name" placeholder="Name of shopping list">
+
+			<input type="text" name="" placeholder="Item names"> <input type="text" name="" placeholder="Quantity"> <input type="text" name="" placeholder="Cost of each">
+
+			<div>
+				<button class="button">Add item</button>
+				<button class="button">Save your list</button>
+			</div>
+		</form>
+		<div id="bottom-para">
+			<p>You can always commit your shopping list to your git repository</p>
+		</div>
+
+
+	</div>
 </body>
+
+
 </html>

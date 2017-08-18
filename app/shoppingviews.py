@@ -15,7 +15,7 @@ def index():
     This method returns the home page of the application
     :return:
     """
-    return render_template('startpage.html')
+    return render_template('index.html')
 
 
 @app.route('/signup', methods=['GET', 'POST'])
