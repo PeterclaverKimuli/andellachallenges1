@@ -1,11 +1,11 @@
-language: python
-
-python:
-  - 3.5.1
-
-cache: pip
-
-install:
-  - pip install coveralls
-  - pip install coverage
-  - pip install flask
+  "language": "python",
+  "python": "3.5.1",
+  "cache": "pip",
+  "install": [
+    "pip install coveralls",
+    "pip install coverage",
+    "pip install flask"
+  ],
+  "group": "stable",
+  "dist": "trusty",
+  "os": "linux"
