@@ -1,11 +1,19 @@
-  "language": "python",
-  "python": "3.5.1",
-  "cache": "pip",
-  "install": [
-    "pip install coveralls",
-    "pip install coverage",
-    "pip install flask"
-  ],
-  "group": "stable",
-  "dist": "trusty",
-  "os": "linux"
+language: python
+
+python:
+  - 3.5.1
+
+cache: pip
+
+install:
+  - pip install coveralls
+  - pip install coverage
+  - pip install flask
+
+env:
+ repo_token: tSsjT4lW3Y4GfZYChYAThlGJevYvuDf0t
+
+script:
+  - nosetests --with-coverage --cover-package=app
+
+after_success: coveralls
