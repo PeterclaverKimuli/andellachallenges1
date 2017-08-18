@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/PeterclaverKimuli/andellachallenges1.svg?branch=master)](https://travis-ci.org/PeterclaverKimuli/andellachallenges1)
+[![Coveralls](https://img.shields.io/coveralls/PeterclaverKimuli/andellachallenges1.svg?branch=master)]()
 
 This site helps you design your shopping list for the several items you want to buy both online and offline. You can save your shopping list afterwards on your git account for further retence and you can even edit the shopping list in the later stages.
 
