@@ -5,7 +5,7 @@
 
 This site helps you design your shopping list for the several items you want to buy both online and offline. You can save your shopping list afterwards on your git account for further retence and you can even edit the shopping list in the later stages.
 
-Features
+$ Features
 
 The application has a couple of features as listed below:-
 
@@ -32,11 +32,11 @@ python run.py
 To now view the application head over to
 
 http://127.0.0.1:5000/
-UML
+# UML
 
 The application also has a UML diagram. For the structure of the app check it out here
 
-Testing
+# Testing
 
 You can then run the application tests using
 
